@@ -1,5 +1,5 @@
 <?php
-   $con=mysqli_connect("db.idcseoul.internal", "admin", "Wmandu623", "sqlDB") or die("MySQL 접속 실패 !!");
+   $con=mysqli_connect("mydb1.c140gascstjn.ap-northeast-2.rds.amazonaws.com", "admin", "Wmandu623", "sqlDB") or die("MySQL 접속 실패 !!");
    mysqli_query($con, "set session character_set_connection=utf8mb4;");
    mysqli_query($con, "set session character_set_results=utf8mb4;");
    mysqli_query($con, "set session character_set_client=utf8mb4;");
