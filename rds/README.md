@@ -1,3 +1,0 @@
-# dadam
-
-asdasdasdasd
