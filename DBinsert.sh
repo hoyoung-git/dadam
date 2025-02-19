@@ -1,4 +1,4 @@
-mysql -uadmin -p11111111 -hsoldesk-global-db-cluster-instance-1.c140gascstjn.ap-northeast-2.rds.amazonaws.com -e "CREATE USER 'user1'@'%' identified by 'p@ssw0rd';"
+mysql -uadmin -p11111111 -hsoldesk-global-db-cluster-instance-1.c140gascstjn.ap-northeast-2.rds.amazonaws.com -e "CREATE USER 'user1'@'%' identified by 'qwe123';"
 mysql -uadmin -p11111111 -hsoldesk-global-db-cluster-instance-1.c140gascstjn.ap-northeast-2.rds.amazonaws.com -e "GRANT all privileges ON *.* TO user1@'%' with grant option;"
 mysql -uadmin -p11111111 -hsoldesk-global-db-cluster-instance-1.c140gascstjn.ap-northeast-2.rds.amazonaws.com -e "CREATE DATABASE sqlDB;flush privileges;"
 mysql -uadmin -p11111111 -hsoldesk-global-db-cluster-instance-1.c140gascstjn.ap-northeast-2.rds.amazonaws.com -e "USE sqlDB;CREATE TABLE userTBL( userID CHAR(8) NOT NULL PRIMARY KEY, name NVARCHAR(50) NOT NULL, mobile CHAR(11) NOT NULL, birthYear CHAR(10), email VARCHAR(30), mDATE DATE);"
